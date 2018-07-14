@@ -1,0 +1,125 @@
+/* Written by Shawn | CSS Validated Code | 7/13/18 | Feel free to steal this for personal use! */
+
+/* Style for Chrome and Safari  */
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    body {
+        background-color: #D3D3D3;
+        margin: auto;
+        margin-top: 8%;
+        width: 25%;
+    }
+    .card {
+        border: 1px solid #000000;
+        background: none;
+        font-size: 140%;
+    }
+    input {
+        background: none;
+        border-bottom: 2px solid #000000;
+        border-right: none;
+        border-left: none;
+        border-top: none;
+        outline: none;
+        font-size: 140%;
+        padding-right: 10px;
+        text-align:right;
+        font-weight: bold;
+        color: #4682b4;
+    } ::placeholder {color: #4682b4;}
+    .btn {
+        margin: 4px;
+    }
+    .btn-gray {
+        border: 1px solid #000000;
+        background-color: #767676;
+        color: #ffffff;
+        padding: 5%;
+        width: 20%;
+    }
+    .btn-primary {
+        background-color: #4682b4;
+        border: 1px solid #000000;
+        width: 66%;
+        padding: 5%;
+    }
+    .btn-danger {
+        border: 1px solid #000000;
+        padding: 5%;
+        width: 20%;
+    }
+    .btn-success {
+        border: 1px solid #000000;
+        padding: 5%;
+        width: 20%;
+    }
+    .btn:hover {
+        opacity: 0.5;
+    }
+    .btn:active {
+        opacity: 0.2;
+    }
+    #fixed-w {
+        width: 118px;
+    }
+    
+}
+/* Default style if all else fails  */
+body {
+    background-color: #D3D3D3;
+    margin: auto;
+    margin-top: 8%;
+    width: 25%;
+}
+.card {
+    border: 1px solid #000000;
+    background: none;
+    font-size: 140%;
+}
+input {
+    background: none;
+    border-bottom: 2px solid #000000;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    outline: none;
+    font-size: 140%;
+    padding-right: 10px;
+    text-align:right;
+    font-weight: bold;
+    color: #4682b4;
+} ::placeholder {color: #4682b4;}
+.btn {
+    margin: 4px;
+}
+.btn-gray {
+    border: 1px solid #000000;
+    background-color: #767676;
+    color: #ffffff;
+    padding: 10px;
+    width: 20%;
+}
+.btn-primary {
+    background-color: #4682b4;
+    border: 1px solid #000000;
+    width: 66%;
+    padding: 5%;
+}
+.btn-danger {
+    border: 1px solid #000000;
+    padding: 5%;
+    width: 20%;
+}
+.btn-success {
+    border: 1px solid #000000;
+    padding: 5%;
+    width: 20%;
+}
+.btn:hover {
+    opacity: 0.5;
+}
+.btn:active {
+    opacity: 0.2;
+}
+#fixed-w {
+    width: 118px;
+}
